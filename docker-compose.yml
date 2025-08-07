@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # Streamlit Application
+  app:
+    build: .
+    container_name: db_query_app
+    ports:
+      - "8502:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src:ro
+      - ./app.py:/app/app.py:ro
+    networks:
+      - db_query_network
+    restart: unless-stopped
+
+networks:
+  db_query_network:
+    driver: bridge
