@@ -1,6 +1,12 @@
-# AI Database Query Agent
+# AI Database Query Agent 🤖
 
-An intelligent database query system that uses CrewAI agents to convert natural language questions into SQL queries for PostgreSQL databases.
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Compatible-336791)](https://www.postgresql.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-00A67E)](https://openai.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED)](https://www.docker.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B)](https://streamlit.io/)
+
+An intelligent database query system that converts natural language questions into SQL queries for PostgreSQL databases using OpenAI GPT-4.
 
 ## Features
 
